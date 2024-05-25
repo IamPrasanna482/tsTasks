@@ -13,8 +13,13 @@ const loggerWrapper = <T extends (...args: any[]) => any>(func: T) => {
 const loggedAdd = loggerWrapper(add);
 
 
-const value = loggedAdd(3, 5);
+const main = () => {
 
-// output the value
-console.log(value); // Output: 8
+    const value = loggedAdd(3, 5);
 
+    // output the value
+    console.log(value); // Output: 8
+
+}
+
+main();

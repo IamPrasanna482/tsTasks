@@ -1,3 +1,21 @@
+// Description
+
+// EditPreview     
+// <pre><code class="javascript">
+// const add = (a: number, b: number): number => a + b;
+// const loggedAdd = loggerWrapper(add);
+
+// const value = loggedAdd(3, 5);
+// </code></pre>
+
+// Should log: "Calling function add with arguments: 3, 5" and give output
+ 
+const add = (a: number, b: number): number => a + b;
+const loggedAdd = loggerWrapper(add);
+
+const value = loggedAdd(3, 5);
+Should log: "Calling function add with arguments: 3, 5" and give output
+
 const add = (a: number, b: number): number => a + b;
 
 // Higher-order function to wrap a function with logging
